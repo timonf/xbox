@@ -1,0 +1,26 @@
+{
+    "name": "timonf/xbox",
+    "minimum-stability": "dev",
+    "description": "This library fetchs some Xbox Live Gamertag information",
+    "keywords": [ "xbox", "gaming", "gamertag" ],
+    "type": "library",
+    "license": "LGPL-3.0",
+    "authors": [
+        {
+            "name": "Timon Freitag",
+            "email": "dev@timonf.de"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.20"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~3.7"
+    },
+    "autoload": {
+        "psr-0": { "Xbox": "lib/" }
+    },
+    "config": {
+        "bin-dir": "bin"
+    }
+}

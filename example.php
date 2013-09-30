@@ -1,10 +1,9 @@
 <?php
 
-namespace std;
+# When you cannot find any file here, install Composer first! http://getcomposer.org/
+require 'vendor/autoload.php';
 
 use \Xbox\Gamertag;
-
-require_once "lib/Xbox/Gamertag.php";
 
 $gamertags = array(
   'Major Nelson',
