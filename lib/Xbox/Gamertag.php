@@ -61,6 +61,7 @@ class Gamertag
 
     /**
      * @example $gamertag = new Gamertag(@file_get_contents('http://gamercard.xbox.com/en-US/XoverBit.card'));
+     * @throws \Exception
      * @param string $res includes the whole gamertag
      */
     public function __construct($res)
